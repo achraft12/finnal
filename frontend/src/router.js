@@ -29,6 +29,10 @@ const routes = [
     component: ProfilePage,
   },
   {
+    path: '/',
+    redirect:'/bookPage'
+  },
+  {
     path: '/admin/add-book',
     name: 'AdminAddBook',
     component: AdminAddBook,
